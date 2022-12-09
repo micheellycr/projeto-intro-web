@@ -1,0 +1,228 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <script src="script.js" defer></script>
+    <title>Document</title>
+</head>
+
+<header> 
+    <div class="botaoMenuLateral"><a href="#Playlist">Playlist</a></div>
+    <div class="botaoMenuLateral"> <a href="#RapNaHistoria">História do Rap</a></div>
+    <div class="botaoMenuLateral"><a href="#MinasEmCena">Minas em Cena</a></div>
+    <div class="botaoMenuLateral"> <a href="#RappersFavs">Rapper's Fav's</a></div>
+</header>
+
+<body>
+    <main>
+
+        <container class="containerUm" id="Playlist">
+                <h1>Rap é
+                <br>
+                Compromisso
+                </h1>
+
+                <iframe class="video" width="560" height="315" src="/Videos/videoplayback.mp4" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen>
+                </iframe>
+            </container>
+
+
+        <container class="containerDois" id="RapNaHistoria">
+            <div class="conteudo1">
+
+                <iframe class="video" width="1280" height="315" src="https://www.youtube.com/embed/Wx0oU1OnHf8" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen>
+                </iframe>
+
+                <p class="p1">
+                    A palavra RAP significa <i>rhythm and poetry</i>, ou seja, ritmo e poesia.
+                    <br>
+                     <br>
+                     O RAP costuma ter batidas rápidas e aceleradas, geralmente com a letra cantada como discurso.
+                    <br>
+                    <br>
+                    Podemos dizer então que o RAP é uma mistura de ritmos intensos, com rimas poéticas, que geralmente representa o contexto social, cultural e político de onde está inserido.
+                    <br>
+                    <br>
+                     O RAP se tornou popularmente conhecido por volta da década de 70 quando chegou aos bairros mais pobres de Nova Iorque (EUA). Mas, segundo registros, o RAP tem a sua origem na Jamaica durante a década de 60.
+                    <br>
+                    <br>
+                    Recentemente viralizou nas redes um vídeo de 1946, onde o grupo The Jubalaires cantam "Noah", canção que, segundo os internautas, seria de fato a origem do RAP. 
+                    <br>
+                    <br>
+                    A origem do RAP pode até ser incerta, mas o que não se tem dúvidas, é que esse estilo musical pertence e sempre pertenceu aos povos marginalizados.
+                </p>
+
+             </div>
+        </container>
+
+
+        <container class="containerTres" id="MinasEmCena">
+            <div class="conteudo2">
+                <p class="p2">
+                Tem muita mulher de respeito fazendo Rap, Hip Hop, Trap e Funk.
+                <br>
+                <br>
+                Por isso, decidi compartilhar aqui a Playlist que estou fazendo apenas com Rapper's e Mc's do gênero feminino.
+                 </p>
+    
+                 <iframe width="560" height="315" src="https://www.youtube.com/embed/Rp8uFfj6YoE" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen>
+                 </iframe>
+   
+            </div>
+        </container>
+
+
+        <container class="containerQuatro" id="RappersFavs">
+            <div class="especialBotao">
+                <input type="text" id="input" onkeyup="rappersBuscado()">
+                <button id="botao" type="button" onclick="buscandoRappers(event)">buscar por nome</button>
+            </div>
+      
+            <section class="Section">
+
+                <a href="http://google.com">
+                    <h2>Tasha e Tracie</h2>
+                </a>
+
+                <div class="imagemETexto">
+
+                    <div class="imagem">
+                        <img class="primeiraImagem" src="/Rappers/Tasha.jfif" alt="Tasha Okereke" />
+                    </div>
+
+                     <div>
+                         <ul class="informacoes">
+                             <li id="itemUmObjeto1">Informação aqui</li>
+                             <br>
+                             <li id="itemDoisObjeto1">Informação aqui</li>
+                             <br>
+                             <li id="itemTresObjeto1">Informação aqui</li>
+                            <br>
+                            <li id="itemQuatroObjeto1">Informação aqui</li>
+                        </ul>
+                    </div>
+
+                </div>       
+            </section>
+            
+
+            <section class="Section">
+
+                <a href="/Rappers/Tracie.jpg" >
+                    <h2>Tasha e Tracie</h2>
+                </a>
+
+                <div class="imagemETexto">
+
+                    <div class="imagem">
+                    <img class="segundaImagem" src="/Rappers/Tracie.jpg" alt="Tracie Okereke"/>
+                    </div>
+
+                    <div>
+                        <ul class="informacoes">
+                             <li id="itemUmObjeto2">Informação aqui</li>
+                            <br>
+                            <li id="itemDoisObjeto2">Informação aqui</li>
+                            <br>
+                            <li id="itemTresObjeto2">Informação aqui</li>
+                             <br>
+                            <li id="itemQuatroObjeto2">Informação aqui</li>
+                        </ul>
+                    </div>
+
+                </div>
+            </section>
+            
+            <section class="Section">
+                <a href="http://google.com">
+                    <h2>Dr. Dre</h2>
+                </a>
+
+                <div class="imagemETexto">
+                    <div class="imagem">
+                    <img class="terceiraImagem" src="/Rappers/DrDre.webp" alt="Dr. Dre"/>
+                    </div>
+
+                    <div>
+                        <ul class="informacoes">
+                            <li id="itemUmObjeto3">Informação aqui</li>
+                            <br>
+                            <li id="itemDoisObjeto3">Informação aqui</li>
+                            <br>
+                            <li id="itemTresObjeto3">Informação aqui</li>
+                            <br>
+                            <li id="itemQuatroObjeto3">Informação aqui</li>
+                        </ul>
+                    </div> 
+
+                </div> 
+            </section>
+
+            <section class="Section">
+                <a href="http://google.com">
+                    <h2>The Notorious B.I.G.
+                    </h2>
+                </a>
+
+                <div class="imagemETexto">   
+                    <div class="imagem">
+                    <img class="quartaImagem" src="/Rappers/NotoriousBIG.jfif" alt="The Notorious BIG"/>
+                    </div>
+
+                    <div>
+                        <ul class="informacoes">
+                         <li id="itemUmObjeto4">Informação aqui</li>
+                        <br>
+                        <li id="itemDoisObjeto4">Informação aqui</li>
+                        <br>
+                        <li id="itemTresObjeto4">Informação aqui</li>
+                        <br>
+                        <li id="itemQuatroObjeto4">Informação aqui</li>
+                        </ul>
+                     </div>
+
+                </div>
+            </section>
+
+            <section class="Section">
+                <a href="http://google.com">
+                    <h2>Djonga
+                    </h2>
+                </a>
+
+                <div class="imagemETexto">
+
+                    <div class="imagem">
+                    <img class="quintaImagem" src="/Rappers/Djonga.jpg" alt="Djonga" />
+                    </div>
+
+                    <div>
+                        <ul class="informacoes">
+                            <li id="itemUmObjeto5">Informação aqui</li>
+                            <br>
+                            <li id="itemDoisObjeto5">Informação aqui</li>
+                            <br>
+                            <li id="itemTresObjeto5">Informação aqui</li>
+                            <br>
+                            <li id="itemQuatroObjeto5">Informação aqui</li>
+                            </ul>
+                    </div>
+
+                </div>
+            </section>
+
+        </container>
+    </main>    
+</body>
+
+<footer>
+    
+    <div class="botaoMenuLateral"><a href="#Playlist">Linkedin</a></div>
+    <div class="botaoMenuLateral"> <a href="#RapNaHistoria">GitHub</a></div>
+
+</footer>
+</html>
